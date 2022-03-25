@@ -91,3 +91,57 @@ p {
 .hero-section p:nth-of-type(1) {
   max-width: 36.188rem;
 }
+
+/* POSTS */
+
+.last-posts {
+  margin: 1.875rem 0 1.563rem;
+}
+
+.last-posts h2 {
+  margin-bottom: 1.875rem;
+}
+
+.last-posts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.post {
+  border-radius: 8px;
+  border: 1px solid #e0aaff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  max-width: 14.5rem;
+  padding: 0.625rem;
+}
+
+.post h3 {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.post h4 {
+  color: #613dc1;
+  font-size: 0.875rem;
+}
+
+.post span {
+  font-weight: 400;
+}
+
+.category {
+  background-color: #d4d2d2;
+  border-radius: 12px;
+  max-width: 5.875rem;
+  text-align: center;
+}
+
+.category p {
+  color: #613dc1;
+  font-size: 0.875rem;
+  padding: 0.188rem 1.125rem;
+}
